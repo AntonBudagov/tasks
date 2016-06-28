@@ -1,0 +1,21 @@
+<div class="col-xs-12 col-sm-12">
+  <h1 inline-edit="tasks.name"
+      inline-edit-callback="myUpdateHandler(newValue)"
+      inline-edit-btn-edit=""
+      inline-edit-on-blur="save"
+      inline-edit-on-click></h1>
+   <hr>
+  <p  inline-edit="tasks.description"
+      inline-edit-callback="myUpdateHandler(newValue)"
+      inline-edit-btn-edit=""
+      inline-edit-on-blur="save"
+      inline-edit-on-click></p>
+  <div class="btn btn-primary" ng-controller="HttpPutCtrl" ng-click="UpdateData()">Save</div>
+</div>
+
+
+
+
+
+
+
